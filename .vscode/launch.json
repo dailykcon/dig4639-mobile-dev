@@ -7,6 +7,16 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Launch Lab 1",
+            "program": "${workspaceFolder}/labs/1/index.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}/ice/w2a/node_index.js",
             "skipFiles": [
