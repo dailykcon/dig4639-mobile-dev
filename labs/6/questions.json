@@ -1,0 +1,83 @@
+[
+    {
+      "question": "In JavaScript, a constructor is a special function called when the new keyword is used to create an object instance.",
+      "answers" :
+        [
+          {"text": "True",
+          "correct": true
+          },
+          {
+            "text": "False",
+            "correct": false
+          }
+        ]
+    },
+    {
+      "question": "In JavaScript, the keyword class is used to declare an object with named functions and properties.",
+      "answers": 
+        [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False",
+            "correct": false
+          }
+        ]
+    },
+    {
+      "question": "A major difference between the keywords let and const is that values defined using const...",
+      "answers": 
+        [
+          {
+            "text": "Can't be changed within the scope ",
+            "correct": true
+          },
+          {
+            "text": "Can be changed within the scope",
+            "correct": false
+          },
+          {
+            "text": "Persist globally",
+            "correct": false
+          }
+        ]
+    },
+    {
+      "question": "What Array method adds an additional value to the end of an array?",
+      "answers":
+        [
+          {
+            "text": "pop()",
+            "correct": false
+          },
+          {
+            "text": "filter()",
+            "correct": false
+          },
+          {
+            "text": "push()",
+            "correct": true
+          }
+        ]
+    },
+    {
+      "question": "What function can be used to act on every value in an array?",
+      "answers": 
+        [
+          {
+            "text": "map()",
+            "correct": true
+          },
+          {
+            "text": "push()",
+            "correct": false
+          },
+          {
+            "text": "pop()",
+            "correct": false
+          }
+        ]
+    }
+  ]
