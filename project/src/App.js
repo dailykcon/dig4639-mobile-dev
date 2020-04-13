@@ -11,7 +11,7 @@ class App extends React.Component {
 
   componentDidMount() {
 
-    window.fetch("http://plato.mrl.ai:8080/contacts", {headers: {API: "murray"}})
+    window.fetch("http://plato.mrl.ai:8080/contacts", {headers: {API: "connolly"}})
     .then((res) => res.json())
     .then((data) => {
       this.setState({contacts: data.contacts});
