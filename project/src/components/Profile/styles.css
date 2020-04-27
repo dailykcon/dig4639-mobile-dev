@@ -1,0 +1,17 @@
+.profile {
+    padding: 5px;
+    margin-top: 10px;
+    font-family: monospace;
+    text-align: center;
+  }
+  
+  .banner {
+    background-color: #282c34;
+    min-height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+  }

@@ -1,0 +1,58 @@
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  min-width: 200px;
+  padding: 5px;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 50%;
+  color: white;
+  margin: auto;
+  overflow: hidden;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.p {
+  padding: 15px;
+  font-size: 25px;
+}
+
+.list {
+  display: grid;
+  margin: 20px 0 50px 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+}
+.contacts {
+  background-color: lightskyblue;
+  min-height: 100vh;
+  color: white;
+  font-family: monospace;
+}
+
+.button {
+  background-color: lightcoral;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  border-radius: 12px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  width: 180px;
+  border-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.button:hover {
+  background-color: lightgreen;
+  font-style: italic;
+}
+
+.card {
+  margin-bottom: 15px;
+}
