@@ -24,8 +24,7 @@ class Contacts extends React.Component {
 
   contactDeleted = (position) => {
     let newcontacts = this.state.contacts;
-    newcontacts.splice(position, 0);
-    newcontacts.pop();
+    newcontacts.splice(position, 1);
     this.setState(newcontacts);
     this.profileRef.current.removeFromCount();
   };
